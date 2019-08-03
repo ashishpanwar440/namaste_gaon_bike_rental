@@ -1,0 +1,78 @@
+.main-card {
+    border: 1px solid #ededed;
+    box-shadow: none;
+}
+
+.left-nav {
+    box-shadow: none;
+    border-right: 1px solid #ededed;
+}
+
+.location-icon, .icon {
+    position: relative;
+    top: -2px;
+}
+
+.filter-opt {
+    border: 1px solid #ededed;
+    border-radius: 20px;
+    color: rgb(49, 49, 49);
+    padding: 2px 15px 5px 15px!important;
+    height: fit-content;
+    font-size: small;
+}
+
+.filter-opt:hover {
+    background: cornsilk;
+    color: rgb(49, 49, 49);
+}
+
+.nav-search {
+    border: none;
+    border-bottom: 1px solid #ededed;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: rgb(32, 32, 32);
+}
+
+@media only screen and (max-width: 960px) {
+
+    .search-card {
+        padding: 5px;
+    }
+    .search-grid {
+        margin: 0;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .card-body {
+        padding: 2px 5px 0 5px;
+    }
+    
+    .loc-name {
+        font-size: 12px;
+        position: relative;
+        top: -20px;
+    }
+
+    .search-card, .search-grid {
+        padding: 2px;
+    }
+
+    .login-btn, .cart-btn {
+        padding: 0 15px;
+    }
+
+    .input-form {
+        font-weight: 700;
+        padding: 0 !important;
+    }
+
+}
